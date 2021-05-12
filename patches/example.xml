@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<patch>
+    <target file="whatever.xml"
+            xpath="this/is/optional/and/defaults/to/root"
+    />
+    <payload>
+        <!--
+        The payload may contain attributes and nodes. Both are optional.
+        -->
+        <nodes>
+            <!--
+            Put nodes that you want to attach at the xPath above
+            -->
+        </nodes>
+        <attributes>
+            <!--
+            These will also use the xPath provided at 'target'
+            -->
+            <attribute key="attribute_name" value="attribute_value"/>
+        </attributes>
+    </payload>
+</patch>

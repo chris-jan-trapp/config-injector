@@ -1,0 +1,6 @@
+targets
+patches/cors.xml
+patches/letsencrypt.xml
+patches/redirect.xml
+/Pipfile.lock
+.idea/
