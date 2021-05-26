@@ -48,5 +48,5 @@ if __name__=="__main__":
         patch = Patch(join(patches_path, patch_file))
         target = XMLFile(join(configuration_path, patch.target_file))
         target.inject(patch.payload, patch.xpath, patch.target_namespace)
-        target.dump(in_place=False)
+        target.dump()
 
